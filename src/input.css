@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font: size 62.5%;
+  font-family: 'Roboto', sans-serif;
+}
+/* @layer components {
+  .logo {
+    @apply text-5xl text-red-900 py-5 px-5;
+  } */
+
+/* .nav-var {
+    @apply flex justify-between w-full fixed top-0 h-28 px-10 items-center;
+  }
+  .nav-items {
+    @apply text-2xl font-semibold text-red-900 py-5 px-5 rounded-[0.625rem] bg-transparent duration-400 hover:bg-slate-100 hover:bg-opacity-40;
+  }
+  .account-icon {
+    @apply flex gap-x-4;
+  }
+  .link-icon {
+    @apply w-8 h-8 bg-transparent duration-400 hover:bg-slate-400 hover:bg-opacity-40;
+  }
+} */
